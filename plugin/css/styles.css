@@ -205,3 +205,132 @@ code{
     background-color: white !important;
     color: black !important;
 }
+
+/* ============================================================
+   Assignment Page (A2 Student View) — Dark Mode Fixes
+   ============================================================ */
+
+/* Fix: was incorrectly setting dark color */
+.css-s8mkic,
+.css-s8mkic-toggleDetails__toggle {
+    color: #C7CDD1 !important;
+    background: transparent !important;
+}
+
+/* Assignment header text — InstructureUI css-in-js classes */
+.css-mi1fmo-text,
+.css-h7tmoq-text,
+.css-g5lcut-text,
+.css-1fij6mr-text,
+.css-1jyml41-text,
+.css-v8wef-view-heading {
+    color: #C7CDD1 !important;
+}
+
+/* Submission tracker subtitle (keep as readable muted green) */
+.css-1rmmfib-text {
+    color: #7ec87e !important;
+}
+
+/* Assignment description content area */
+.user_content,
+.dp-wrapper,
+.dp-wrapper-parent,
+#dp-wrapper {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+}
+
+/* DesignPLUS layout tables */
+.ls-table,
+.ls-table td,
+.ls-table th,
+.ls-table tr {
+    background-color: #282828 !important;
+    color: #C7CDD1 !important;
+    border-color: #4d4d4d !important;
+}
+
+/* Callout boxes */
+.ls-callout,
+.ls-callout-tip,
+.ls-callout p {
+    background-color: #1a3a2a !important;
+    color: #C7CDD1 !important;
+    border-color: #2d6a4d !important;
+}
+
+/* Headings inside assignment content */
+.user_content h2,
+.user_content h3,
+.user_content h4 {
+    color: #C7CDD1 !important;
+}
+
+/* Source code block containers */
+.sourceCode,
+pre.sourceCode,
+div.sourceCode {
+    background-color: #1a1a1a !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+pre.sourceCode code,
+div.sourceCode code {
+    background-color: transparent !important;
+    border: none !important;
+    color: #C7CDD1 !important;
+}
+
+/* Pandoc syntax token colors (VS Code Dark+ palette) */
+.sourceCode .kw { color: #569cd6 !important; }  /* keyword    — blue      */
+.sourceCode .cf { color: #c586c0 !important; }  /* ctrl flow  — purple    */
+.sourceCode .im { color: #c586c0 !important; }  /* import     — purple    */
+.sourceCode .co { color: #6a9955 !important; }  /* comment    — green     */
+.sourceCode .bu { color: #4ec9b0 !important; }  /* built-in   — teal      */
+.sourceCode .dt { color: #4ec9b0 !important; }  /* data type  — teal      */
+.sourceCode .fu { color: #dcdcaa !important; }  /* function   — yellow    */
+.sourceCode .va { color: #9cdcfe !important; }  /* variable   — light blue*/
+.sourceCode .st { color: #ce9178 !important; }  /* string     — orange    */
+.sourceCode .ch { color: #ce9178 !important; }  /* char       — orange    */
+.sourceCode .dv,
+.sourceCode .fl { color: #b5cea8 !important; }  /* number     — sage      */
+.sourceCode .op { color: #d4d4d4 !important; }  /* operator   — light gray*/
+.sourceCode .al { color: #f14c4c !important; }  /* alert      — red       */
+
+/* Terminal code blocks */
+pre.sourceCode.terminal,
+div.sourceCode.terminal {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+}
+
+.sourceCode.terminal .op { color: #79c0ff !important; }
+.sourceCode.terminal .al { color: #ff7b72 !important; }
+
+/* Assignment footer bar (has inline style="background: white") */
+#assignments-student-footer {
+    background-color: #282828 !important;
+    border-color: #4d4d4d !important;
+    color: #C7CDD1 !important;
+}
+
+/* Previous / Next navigation buttons in footer */
+.css-1boh2ux-view--inlineBlock-baseButton,
+.css-6mfz5i-view--inlineBlock-baseButton {
+    color: #C7CDD1 !important;
+}
+
+/* Attempt selector input */
+.css-1ylbheh-textInput,
+.css-7zy0a7-textInput__facade {
+    background-color: #282828 !important;
+    color: #C7CDD1 !important;
+    border-color: #4d4d4d !important;
+}
+
+/* pre body text (assignments CSS sets it to #273540) */
+pre {
+    color: #C7CDD1 !important;
+}
